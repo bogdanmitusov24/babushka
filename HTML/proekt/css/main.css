@@ -1,0 +1,58 @@
+* {
+    padding: 0; /* внутренний отступ */
+    margin: 0; /* внешний отступ */
+    box-sizing: border-box; /* бокс модели */
+}
+@Font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+
+
+}
+body {
+    background-color: #efefef;
+    font-family: roboto;
+}
+
+main {
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: #fff;        
+    display: flex;    
+    flex-wrap: wrap; 
+    justify-content: center;
+    box-shadow: 0 0 10px 1px    rgba(0, 0, 0, 0.8);x
+}
+
+.photo {
+    width: calc(80% - 90px);
+    height: calc((35vw - 40px)/ 15*15);
+    margin: 20px;
+    background-color: orange;
+    background-size: cover ;
+    background-position:center ;
+    transition: all 6s ease;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.0);
+}
+.photo:hover {
+transform: rotate3d(2, 5, 1, 45deg);
+ box-shadow: 0 0 20px 1px rgba(0, 0, 0, 4);
+}
+h1 {
+    width: 100%;
+    text-align:  center;
+    font-size: 48px;
+}
+.photo1 {
+    background-image: url(../IMG/img1.jpg);
+}
+.photo2 {
+    background-image: url(../IMG/img2.jpg);
+}
+.photo3 {
+    background-image: url(../IMG/img3.jpg);
+}
+.photo4 {
+    background-image: url(../IMG/img4.jpg);
+}
